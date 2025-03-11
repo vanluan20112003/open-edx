@@ -1,0 +1,95 @@
+CMS_HOST: studio.local.openedx.io
+CMS_OAUTH2_SECRET: LUmuYj7KGRCPGkHVh7nDLcvj
+CMS_PORT: 8001
+CONTACT_EMAIL: contact@local.openedx.io
+DEFAULT_FROM_EMAIL: vanluan.9a9@gmail.com
+DEV_MODE: true
+DOCKER_COMPOSE_EXTRA:
+  cms:
+    ports:
+    - 8001:8001
+  lms:
+    ports:
+    - 8000:8000
+ENABLE_HTTPS: false
+ID: 8Cs9rRqglKpVqp4pfkoZ6Ncj
+JWT_RSA_PRIVATE_KEY: '-----BEGIN RSA PRIVATE KEY-----
+
+  MIIEogIBAAKCAQEArvCSqhzXHyc5GKXZhdtX5KMR4SsKdWbihHkmOUVVZn8iV+lr
+
+  LI9SadTj2OMGJsthKh90dT8+k1a5Gso8TBGvByCd7a8oyz3j+AYYJ7o8/tJcQIfr
+
+  5+02WKy901zXQ5aDbXukXFwaga/wUjFReIBNopb5Fv/b9Yq1yZv5g9cvcuI8Ft+g
+
+  6rsDVkVCdpR6avFYqloPZGpTaqudefPgd8dQVZEiWb0Lo/fOlIWXKM0NIun/6Doo
+
+  MfBVY1l9tPzRDGDoN3zEWkvpUEHBmhzJCD68wMWgUisUMNK5J2+ak8fJBas6okYi
+
+  3JVBd0xbGFB4vxsItbl+yF36+GnPkx9kXL1B9QIDAQABAoIBAALP6DOm2ghsq3zL
+
+  cbc2ou+QdYGenQDtIfgKMIScKjbHFWi/XlMtjKAZ5X2/jIJEI7A3KDqYRSu+KaSW
+
+  GqkIYb1mF1PSTIAT4x3CD1JYKpHYFNaOuMqWJBkB0d1bcTRrb3prkeVQL7bk+qJ/
+
+  m3Up7tWNwrxNaZ5FWA3BHZ4yb9dTZ9y/rwu3t8F9zHxBoWpoB21clXBu077BU0h1
+
+  95Vz+ufa3jRtAIsutIJO9txVi2Vzmuc6OfGy54zNafkywHaJ899F4BG9q7WL7EAL
+
+  KT72WllKzru2iq3xdeqYtQSqmHZxqjhdoYALgE67gTK3yAxi6QattgW5dSQZUEUS
+
+  O8JP97ECgYEAxSlqeEk3HGtPt5PPIZWjMeerqXIRdtwj0oc6rrLK7zXBaqdnZ07f
+
+  bVxkQbPuB4NrkVzHOWWrhJIkkAPNKp92ioYySUNInXy/CvD5kyh7/Q2LDf8lDSy6
+
+  03cqp2CuZWc10aH3z7PDmyp8yqF0wZovLg8FIAHRYtC3EacZx6dmph0CgYEA4yV1
+
+  NWmPsaZrhkFkGvsa60CNZhBqEj1Z+mKQXBIfZ9jJ/hhYFE9yHx6+RTl7F9lT0hf+
+
+  IT0OsBVgetj7uwKAj7IU0PZFZ3mwsJgHEtol0SkqxTpK0oghKlJxBsq0BuexJe0G
+
+  EKgHY2scIEQTimQ7lEf/prgYeSiuZlk/2g36Y7kCgYBYhz8yYZWoYhr6UBk6eEk9
+
+  2EuBGyHyX+iJ2ISl+swaWuXNMPvCLG0wWsL9qYAgyYbcT295O0inj0NxkvNlxxJg
+
+  It+je924MVJK5Gb8B7qcpp8gmscVQldlKmXxn/zOtWg6B+MQ1SPooUxFY/fcEpJK
+
+  uR3RAF/3YcZB2+k8d9MklQKBgEAAc/Ai2Ew0GiPwFObNTh5vR+g0Q87z3oCAeTCY
+
+  IqU+HlwsO9UtNXizTuVudtKXd9jAzehLrfHLdC3pKbTd1Z+ni9n9Kj0nurNngsa7
+
+  FODEerqr3B1KIh4ssJA7WVKAwhdvm7/huIM40On+hIsABxGW39/4C11IKyvHhghI
+
+  2/5xAoGAQB9he0A4f5jQm6145rPGS8X+fbhOWCAW0RZVqd/O6/0A+5fwWxDJqjHW
+
+  AGGcXNfHd8G24JNxKCmebqgfvmPm/Nxe3xOk3yHQxk8UpofNbOrEt7UupxUlRoFS
+
+  o6ro4UL/1zx5kkz/dtRmowhEq7g3d+olXuiIzfVXQTu+rENBzYg=
+
+  -----END RSA PRIVATE KEY-----'
+LANGUAGE_CODE: vi
+LMS_HOST: local.openedx.io
+LMS_LANGUAGES:
+  en: English
+  vi: Tiếng Việt
+LMS_PORT: 8000
+MEILISEARCH_API_KEY: d6efd1fcd7bdef9db50f82007acc33071f5e7240d144e252ec31e3653e3fea25
+MEILISEARCH_API_KEY_UID: c59492a5-f9aa-4b9b-b6fe-9fff3b7517be
+MEILISEARCH_MASTER_KEY: eB7AXqjekkYiO2WgqxUNAnBC
+MYSQL_ROOT_PASSWORD: q4JqVxXe
+OPENEDX_MYSQL_PASSWORD: Tu9WUeHv
+OPENEDX_SECRET_KEY: nhrRudWJnYewDCWmemwTRnF7
+PLATFORM_NAME: My Open edX
+PLUGINS:
+- mfe
+- indigo
+PLUGIN_INDEXES:
+- https://overhang.io/tutor/main
+RUN_CMS_EXTRA: true
+RUN_LMS_EXTRA: true
+SERVER_EMAIL: vanluan.9a9@gmail.com
+SMTP_HOST: smtp.gmail.com
+SMTP_PASSWORD: lylqimcjelnmlxpj
+SMTP_PORT: 587
+SMTP_USERNAME: vanluan.9a9@gmail.com
+SMTP_USE_SSL: false
+SMTP_USE_TLS: true

@@ -1,0 +1,10 @@
+services:
+  lms:
+    ports:
+      - "8000:8000"
+  cms:
+    ports:
+      - "8001:8000"
+  mfe:
+    ports:
+      - "8081:80"
